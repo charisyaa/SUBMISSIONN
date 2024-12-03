@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">submission pertama fundamental</string>
+    <string name="title_home">home</string>
+    <string name="title_upcoming">upcoming</string>
+    <string name="title_finished">finished</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

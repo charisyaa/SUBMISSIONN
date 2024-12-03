@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:fillViewport="true"
+    android:clipToPadding="false">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:paddingBottom="80dp">
+
+        <ImageView
+            android:id="@+id/imgMediaCover"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            tools:src="@tools:sample/avatars" />
+
+        <TextView
+            android:id="@+id/tvEventName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Event Name"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:id="@+id/tvOwnerName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Organized by: Owner Name"
+            android:textStyle="italic"
+            android:layout_marginTop="4dp" />
+
+        <TextView
+            android:id="@+id/tvBeginTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Event Time: 00:00 - DD/MM/YYYY"
+            android:layout_marginTop="4dp" />
+
+        <TextView
+            android:id="@+id/tvQuota"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Remaining Quota: X"
+            android:layout_marginTop="4dp" />
+
+        <TextView
+            android:id="@+id/tvDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Description goes here..."
+            android:layout_marginTop="8dp" />
+
+        <Button
+            android:id="@+id/btnOpenLink"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Open Link"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="20dp" />
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>
